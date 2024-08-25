@@ -10,18 +10,21 @@ public class IteratorRemover
 
 	public IteratorRemover(String line, String rem)
 	{
+		//TODO 1
 	}
 
 	public void setTest(String line, String rem)
 	{
+		//TODO 2
 	}
 
 	public void remove()
 	{
+		//TODO 3
 	}
 
 	public String toString()
 	{
-		return "";
+		return list.toString()+"\n\n";
 	}
 }

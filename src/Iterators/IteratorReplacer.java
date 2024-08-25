@@ -10,14 +10,17 @@ public class IteratorReplacer
 
 	public IteratorReplacer(String line, String rem, String rep)
 	{
+		//TODO 1
 	}
 
-	public void setEmAll(String line, String rem, String rep)
+	public void setTest(String line, String rem, String rep)
 	{
+		//TODO 2
 	}
 
 	public void replace()
 	{
+		//TODO 3
 	}
 
 	public String toString()
