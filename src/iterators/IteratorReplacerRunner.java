@@ -13,8 +13,8 @@ public class IteratorReplacerRunner
 		test.replace();
 		System.out.println(test);
 
-		test.setTest("1 2 3 4 5 6 a b c a b c","b","#");
-		test.replace();
-		System.out.println(test);
+//		test.setTest("1 2 3 4 5 6 a b c a b c","b","#");
+//		test.replace();
+//		System.out.println(test);
 	}
 }
