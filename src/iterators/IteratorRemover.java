@@ -2,6 +2,8 @@ package iterators;//(c) A+ Computer Science
 //www.apluscompsci.com
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
 
 public class IteratorRemover
 {
@@ -10,17 +12,26 @@ public class IteratorRemover
 
 	public IteratorRemover(String line, String rem)
 	{
-		//TODO 1
+		toRemove = rem;
+		list = new ArrayList(Arrays.asList(line.split(" ")));
 	}
 
 	public void setTest(String line, String rem)
 	{
-		//TODO 2
+		toRemove = rem;
+		list = new ArrayList(Arrays.asList(line.split(" ")));
 	}
 
 	public void remove()
 	{
-		//TODO 3
+		Iterator<String> it = list.iterator();
+		String currString = "";
+		while (it.hasNext()) {
+			currString = it.next();
+			if (currString.equals(toRemove)) {
+				it.remove();
+			}
+		}
 	}
 
 	public String toString()
