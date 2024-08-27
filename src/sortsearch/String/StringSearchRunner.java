@@ -1,4 +1,4 @@
-package SortSearch_String;//(c) A+ Computer Science
+package sortsearch.String;//(c) A+ Computer Science
 //www.apluscompsci.com
 //Name - 
 

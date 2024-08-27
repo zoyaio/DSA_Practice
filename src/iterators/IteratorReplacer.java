@@ -1,4 +1,4 @@
-package Iterators;//(c) A+ Computer Science
+package iterators;//(c) A+ Computer Science
 //www.apluscompsci.com
 
 import java.util.ArrayList;
