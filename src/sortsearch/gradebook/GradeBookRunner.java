@@ -19,7 +19,7 @@ public class GradeBookRunner
 		int numStudents = kb.nextInt();
 		kb.nextLine();
 		
-		java.lang.Class theClass = new java.lang.Class(className, numStudents);
+		Class theClass = new Class(className, numStudents);
 		
 		for(int i=0; i<numStudents; i++)
 		{

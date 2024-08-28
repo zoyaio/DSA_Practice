@@ -8,7 +8,7 @@ public class ClassRunner
 {
    public static void main( String args[] )
    {
-		java.lang.Class test = new java.lang.Class("Comp Sci 1",4);
+		Class test = new Class("Comp Sci 1",4);
 		
 		double[] stu1 = {100,90,80,60};
 		test.addStudent(0,new Student("Jimmy",stu1));
