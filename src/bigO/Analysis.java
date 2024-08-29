@@ -4,7 +4,7 @@ package bigO;
  * by Hermant Jain
  */
 
-public class AsymptoticAnalysis {
+public class Analysis {
 
     int fun1(int n) {
         int m = 0;
@@ -141,22 +141,5 @@ public class AsymptoticAnalysis {
             }
         }
         return m;
-    }
-
-    public static void main(String[] args) {
-        AsymptoticAnalysis a = new AsymptoticAnalysis();
-        System.out.println("N = 100, Number of instructions in O(n)::" + a.fun1(100));
-        System.out.println("N = 100, Number of instructions in O(n^2)::" + a.fun2(100));
-        System.out.println("N = 100, Number of instructions in O(n^3)::" + a.fun3(100));
-        System.out.println("N = 100, Number of instructions in O(n^3)::" + a.fun4(100));
-        System.out.println("N = 100, Number of instructions in O(n^2)::" + a.fun5(100));
-        System.out.println("N = 100, Number of instructions in O(n^2)::" + a.fun6(100));
-        System.out.println("N = 100, Number of instructions in O(n)::" + a.fun7(100));
-        System.out.println("N = 100, Number of instructions in O(n)::" + a.fun8(100));
-        System.out.println("N = 100, Number of instructions in O(log(n))::" + a.fun9(100));
-        System.out.println("N = 100, Number of instructions in O(log(n))::" + a.fun10(100));
-        System.out.println("N = 100, Number of instructions in O(n^2)::" + a.fun11(100));
-        System.out.println("N = 100, Number of instructions in O(n^(3/2))::" + a.fun12(100));
-        System.out.println("N = 100, Number of instructions in O(n)::" + a.fun13(100));
     }
 }
