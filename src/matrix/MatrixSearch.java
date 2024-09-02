@@ -1,4 +1,4 @@
-package sortsearch.matrix;//(c) A+ Computer Science
+package matrix;//(c) A+ Computer Science
 //www.apluscompsci.com
 //Name - 
 

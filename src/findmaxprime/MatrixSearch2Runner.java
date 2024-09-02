@@ -1,4 +1,4 @@
-package sortsearch.findmaxprime;//(c) A+ Computer Science
+package findmaxprime;//(c) A+ Computer Science
 //(c) A+ Computer Science
 //www.apluscompsci.com
 //Name -

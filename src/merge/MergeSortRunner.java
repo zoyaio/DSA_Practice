@@ -1,4 +1,4 @@
-package sortsearch.merge;//� A+ Computer Science  -  www.apluscompsci.com
+package merge;//� A+ Computer Science  -  www.apluscompsci.com
 //(c) A+ Computer Science
 //www.apluscompsci.com
 //Name -

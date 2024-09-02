@@ -3,7 +3,6 @@ package iterators;//(c) A+ Computer Science
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.ListIterator;
 
 public class IteratorReplacer

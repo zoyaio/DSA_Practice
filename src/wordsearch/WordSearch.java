@@ -1,4 +1,4 @@
-package sortsearch.wordsearch;//(c) A+ Computer Science
+package wordsearch;//(c) A+ Computer Science
 //www.apluscompsci.com
 //Name -
 
