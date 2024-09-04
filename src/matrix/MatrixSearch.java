@@ -1,10 +1,13 @@
 package matrix;//(c) A+ Computer Science
 //www.apluscompsci.com
-//Name - 
+//Name -
+import java.util.Random;
 
 public class MatrixSearch
 {
     private int[][] mat;
+	private int rows;
+	private int cols;
 
 		/*
 		 *pre - mat is null
@@ -13,6 +16,15 @@ public class MatrixSearch
 		 */
     public MatrixSearch( int rows, int cols, int upper )
     {
+		mat = new int[rows][cols];
+		this.rows = rows;
+		this.cols = cols;
+		Random rand = new Random();
+		for (int i = 0; i < rows; i++) {
+			for (int j= 0; j < cols; j++) {
+				mat[i][j] = rand.nextInt(upper) ;
+			}
+		}
     }
 
 
@@ -23,7 +35,16 @@ public class MatrixSearch
 		 */
     public int countOdds( )
     {
-		return 0;
+		int oddCount = 0;
+		for (int i = 0; i < rows; i++) {
+			for (int j= 0; j < cols; j++) {
+				if (mat[i][j] %2 ==1) {
+					oddCount++;
+				}
+			}
+		}
+
+		return oddCount;
     }
 
 
@@ -34,7 +55,7 @@ public class MatrixSearch
 		 */
     public int countEvens( )
     {
-		return 0;
+		return rows * cols - this.countOdds();
     }
 
 
@@ -45,7 +66,16 @@ public class MatrixSearch
 		 */
     public int countPrimes( )
     {
-		return 0;
+		int oddCount = 0;
+		for (int i = 0; i < rows; i++) {
+			for (int j= 0; j < cols; j++) {
+				if (isPrime(mat[i][j])) {
+					oddCount++;
+				}
+			}
+		}
+
+		return oddCount;
     }
 
 		/*
@@ -53,9 +83,14 @@ public class MatrixSearch
 		 *post - false is returned if num is divisble by any number between 2 and itself
 		 *post - true is returned if num is not divisble by any number between 2 and itself
 		 */
-    private boolean isPrime( int num )
+    public boolean isPrime( int num )
     {
-    	return false;
+		for (int val = 2; val < num; val++) {
+			if (num % val == 0) {
+				return false;
+			}
+		}
+		return true;
     }
 
 		/*
@@ -64,6 +99,14 @@ public class MatrixSearch
 		 */
     public String toString()
     {
- 		return "";
+		String out = "";
+		for (int i = 0; i < rows; i++) {
+			for (int j= 0; j < cols; j++) {
+				out += Integer.toString(mat[i][j]) + " ";
+			}
+		}
+
+		return out;
+
     }
 }

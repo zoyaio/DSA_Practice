@@ -20,37 +20,19 @@ public class LongPalindrome
 		// find all the palindromes that originiate from that char
 		ArrayList<Palin> allPalins = new ArrayList<>();
 		int len = word.length();
-		for (int i = 1; i < len-1; i++ ) {
-			// get string with that index as the center
-			int padLength = i;
-			if (i >= (int) Math.round(len/2.0)) {
-				padLength = len-i-1;
+		for (int i = 0; i < len-1; i++ ) {
+			for (int j = i; j < len; j++) {
+				Palin potentialWord = new Palin(word.substring(i, j + 1));
+				if (potentialWord.isPalin()) {
+					allPalins.add(insertLocation(allPalins, potentialWord), potentialWord);
+				}
 			}
-			// passes in lists of odd length
-			ArrayList<Palin> res = getAllPalinsFromChar(word.substring(i-padLength,i + padLength + 1));
-//			ArrayList<Palin> res2 = getAllPalinsFromChar(word.substring(i-padLength,i+ padLength));
+
 		}
 		return allPalins;
 
 	}
 
-	public static ArrayList<Palin> getAllPalinsFromChar(String word) {
-
-		if (word.length() < 2) {
-			return new ArrayList<Palin>();
-		}
-
-		ArrayList<Palin> arr = LongPalindrome.getAllPalinsFromChar(word.substring(1, word.length() - 1));
-		Palin wordPal = new Palin(word);
-		if (wordPal.isPalin()) {
-			arr.add(wordPal);
-		}
-		return arr;
-	}
-
-	public static void main(String[] args) {
-		System.out.println(LongPalindrome.getAllPalinsFromChar("aboba"));
-	}
 
 	/*
 	*method insertLocation will look at the list and determine where to
@@ -58,7 +40,21 @@ public class LongPalindrome
 	*/
 	private static int insertLocation( ArrayList<Palin> list, Palin pal )
 	{
-		return 0;
+		// orde ris lexographic .compareTo()
+//		int maxInd = 0;
+//		int maxVal = 0;
+//		for (int i = 0; i < list.size(); i++) {
+//			//go through the list, update index if its greater than value until its no longer positive
+//			if (list.get(i).getWord().compareTo(pal.getWord()) <= 0) {
+//				maxInd = i;
+//			}
+//		}
+		int i = 0;
+		int len = list.size();
+		while ( i < len && list.get(i).getWord().compareTo(pal.getWord()) <= 0 ) {
+			i++;
+		}
+		return i;
 	}
 
 	/*
@@ -68,6 +64,13 @@ public class LongPalindrome
 	*/
 	public static Palin getLongestPalin(String word)
 	{
-		return null;
+		ArrayList<Palin> allWords = getAllPalins(word);
+		int ind = 0;
+		for (int i = 0; i < allWords.size(); i++) {
+			if (allWords.get(i).getLength() > allWords.get(ind).getLength()) {
+				ind = i;
+			}
+		}
+		return allWords.get(ind);
 	}
 }

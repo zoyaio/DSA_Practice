@@ -15,5 +15,7 @@ public class MatrixSearchRunner
         System.out.println( "Odd count = " + ms.countOdds() );
         System.out.println( "Even count = " + ms.countEvens() );
         System.out.println( "Prime count = " + ms.countPrimes() );
+
+
     }
 }
