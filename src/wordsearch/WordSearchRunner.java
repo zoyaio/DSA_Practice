@@ -5,11 +5,12 @@ package wordsearch;//(c) A+ Computer Science
 
 public class WordSearchRunner
 {
+	// HAT test case
     public static void main(String[] args) throws Exception
     {
     	  WordSearch ms = new WordSearch(8,"APPLEXYPXLHJKEEDEGGLLXXCGFPDGOGNMYNTAHUUPUQDGBTSBTHIGHMSILKXLTHIS");
     	  String[] words = "APPLE AXE APEX CAT HEX EGG HAT COMPUTER GUM THIS TUG THIGH".split(" ");
-    	  System.out.println( ms );
+    	  System.out.println( ms.checkLeft("HAT", 4,5) );
     	  for( String s : words )
     	  {
     	  	  if( ms.isFound( s) )
