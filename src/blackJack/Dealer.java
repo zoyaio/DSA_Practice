@@ -17,8 +17,9 @@ public class Dealer extends Player
 		shuffle();
 	}
 
-	private void initializeDeck() {
+	public void initializeDeck() {
 		String[] suits = Card.SUITS;
+		deck = new ArrayList<>();
 		for (int suitNum= 0; suitNum < 4; suitNum++) {
 			for (int face = 1; face < Card.FACES.length; face ++) {
 				deck.add(new BlackJackCard(face, suits[suitNum]));
