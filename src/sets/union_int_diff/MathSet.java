@@ -31,6 +31,8 @@ public class MathSet
 		while (scan.hasNextInt()) {
 			two.add(scan.nextInt());
 		}
+		System.out.println("one" + one);
+		System.out.println("two: " + two);
 	}
 
 	public Set<Integer> union()
