@@ -67,7 +67,7 @@ public class BaseConversion
 
 		// reverse StringBuilder input1
 		input1.reverse();
-		return input1.toString()+"-"+newBase;
+		return input1+"-"+newBase;
 	}
 
 	public String toString()
