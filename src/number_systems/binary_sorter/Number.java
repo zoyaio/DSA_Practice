@@ -23,7 +23,7 @@ public class Number implements Comparable<Number>
 		numBase10 = Integer.parseInt(num, base);
 
 		numBinary = Integer.toString(numBase10, 2);
-		numOnes = numBinary.length() - numBinary.replace(".", "").length();
+		numOnes = numBinary.length() - numBinary.replace("1", "").length();
 
 		numOGbase = Integer.parseInt(num);
 	}
@@ -36,7 +36,7 @@ public class Number implements Comparable<Number>
 			return 1;
 		}
 		// if this < param num1s {return neg}
-		if (this.getNumOnes() < param.getNumOnes()) {
+		else if (this.getNumOnes() < param.getNumOnes()) {
 			return -1;
 		}
 		// else:
@@ -44,6 +44,7 @@ public class Number implements Comparable<Number>
 			// sort by base 10 val
 			int res = Integer.compare(numBase10, param.numBase10);
 			if (res == 0) {
+				// sort by value in og base
 				res = Integer.compare(numOGbase, param.numOGbase);
 			}
 
@@ -56,6 +57,8 @@ public class Number implements Comparable<Number>
 	}
 	public String toString( )
 	{
-	  return "";
+//	  return original, base 10, binary;
+		return "og: " + num + " base10: " + numBase10 + " binary: " + numBinary;
 	}
+
 }
