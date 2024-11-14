@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="stacks!">
+    <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="stacks! pt2! done!">
+      <change afterPath="$PROJECT_DIR$/src/queues/basics/1.queues_Basics.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/basics/PalinList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/basics/PalinListRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/make_a_queue/3.queues_MakeAQueue.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/make_a_queue/IntQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/make_a_queue/IntQueueRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/priority_queue_array_reduction/4.queues_PQ_array_reduction.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/priority_queue_array_reduction/ArrayReduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/priority_queue_basics/2.queues_PriorityQBasics.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/priority_queue_basics/PQTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/priority_queue_basics/PQTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/number_systems/binary_sorter/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number_systems/binary_sorter/Number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stacks/postfix_solver/PostFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/postfix_solver/PostFix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/number_systems/binary_sorter/3.numsystems_BinarySorter.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/number_systems/binary_sorter/3.numsystems_BinarySorter.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stacks/syntax_checker/SyntaxChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/syntax_checker/SyntaxChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +49,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zoya/IdeaProjects/DSA_Practice_gradebook/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zoya/IdeaProjects/DSA_Practice_gradebook/src/queues&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -48,14 +58,27 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\queues" />
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src" />
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\maps" />
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\sets" />
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\interfaces\" />
-      <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\interfaces" />
     </key>
   </component>
   <component name="RunManager" selected="Application.PostFixRunner">
+    <configuration name="ArrayReduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queues.priority_queue_array_reduction.ArrayReduction" />
+      <module name="DSA_Practice_gradebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queues.priority_queue_array_reduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BlockTestOne" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -71,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number_systems.binary_sorter.NumberRunner" />
+    <configuration name="IntQueueRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queues.make_a_queue.IntQueueRunner" />
       <module name="DSA_Practice_gradebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number_systems.binary_sorter.*" />
+          <option name="PATTERN" value="queues.make_a_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +107,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostFix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacks.postfix_solver.PostFix" />
+    <configuration name="PQTestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queues.priority_queue_basics.PQTestRunner" />
       <module name="DSA_Practice_gradebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacks.postfix_solver.*" />
+          <option name="PATTERN" value="queues.priority_queue_basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Play" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacks.Play" />
+      <module name="DSA_Practice_gradebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,39 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyntaxCheckRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacks.syntax_checker.SyntaxCheckRunner" />
-      <module name="DSA_Practice_gradebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stacks.syntax_checker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SyntaxChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacks.syntax_checker.SyntaxChecker" />
-      <module name="DSA_Practice_gradebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stacks.syntax_checker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PostFixRunner" />
-        <item itemvalue="Application.PostFix" />
-        <item itemvalue="Application.SyntaxChecker" />
-        <item itemvalue="Application.SyntaxCheckRunner" />
-        <item itemvalue="Application.NumberRunner" />
+        <item itemvalue="Application.Play" />
+        <item itemvalue="Application.ArrayReduction" />
+        <item itemvalue="Application.PQTestRunner" />
+        <item itemvalue="Application.IntQueueRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -176,14 +186,22 @@
       <option name="project" value="LOCAL" />
       <updated>1729881826998</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="stacks! pt2! done!">
+      <created>1730229401949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730229401949</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="blackjack 1-5" />
     <MESSAGE value="tic tac toe and untested sets" />
     <MESSAGE value="stacks!" />
-    <option name="LAST_COMMIT_MESSAGE" value="stacks!" />
+    <MESSAGE value="stacks! pt2! done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="stacks! pt2! done!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -230,23 +248,53 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/stacks/syntax_checker/SyntaxChecker.java</url>
-          <line>114</line>
+          <line>132</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/stacks/syntax_checker/SyntaxChecker.java</url>
-          <line>116</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/stacks/syntax_checker/SyntaxChecker.java</url>
-          <line>48</line>
+          <line>49</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/stacks/syntax_checker/SyntaxChecker.java</url>
-          <line>52</line>
+          <line>54</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stacks/syntax_checker/SyntaxChecker.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stacks/syntax_checker/SyntaxChecker.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stacks/syntax_checker/SyntaxChecker.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/queues/basics/PalinList.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/queues/basics/PalinList.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/maps/relatives/RelativesRunner.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/queues/priority_queue_array_reduction/ArrayReduction.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/sortsearch/gradebook/GradesRunner.java</url>

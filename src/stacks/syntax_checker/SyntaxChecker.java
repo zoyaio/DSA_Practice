@@ -21,6 +21,7 @@ public class SyntaxChecker
 		openToClose.put('{', '}');
 		openToClose.put('(', ')');
 		openToClose.put('[', ']');
+		openToClose.put('<', '>');
 	}
 
 	public SyntaxChecker(String s)
@@ -50,13 +51,14 @@ public class SyntaxChecker
 			System.out.println("hi");
 			char symb = symbols.pop();
 			// so the problem is that its calling this on the closing symbol? i think
+			System.out.println("symb " + symb);
 			if (openToClose.containsKey(symb)) {
-				System.out.println("symb " + symb);
 				if (!checkExpression(symb)){
 					return false;
 				}
 			}
 			if (openToClose.containsValue(symb)) {
+
 				return false;
 			}
 		}
@@ -70,10 +72,12 @@ public class SyntaxChecker
 
 		char currSym;
 		try{
-			System.out.println("hi2");
+
 			currSym = symbols.pop();
+			System.out.println("hi2 " + currSym );
 		}
 		catch (Exception e) {
+			System.out.println("Sad");
 			return false;
 		}
 		// keep parsing input one by one
@@ -83,21 +87,19 @@ public class SyntaxChecker
 		if (isSymbol(currSym)) {
 			// if its an open symbol
 			if (openToClose.containsKey(currSym)){
-				return checkExpression(currSym);
+				System.out.println("yasssa: " + sym);
+				boolean c = checkExpression(currSym);
+				if (!c) {
+					return false;
+				}
+				else {
+					return checkClosed(symbols.pop(), sym);
+				}
+
 			}
 			// if it's a close symbol
 			else {
-				char symbolToLookFor;
-				try {
-					symbolToLookFor = openToClose.get(sym);
-				}
-				catch (Exception e) {
-					System.out.println("toLook: " + sym);
-					symbolToLookFor = 'a';
-				}
-				// if it's the right close symbol
-				// if it's wrong
-				return currSym == symbolToLookFor;
+				return checkClosed(currSym, sym);
 			}
 		}
 		else{
@@ -107,17 +109,32 @@ public class SyntaxChecker
 
 	}
 
+	boolean checkClosed(char currSym, char sym) {
+		System.out.println("current state " + symbols);
+		char symbolToLookFor;
+		try {
+			symbolToLookFor = openToClose.get(sym);
+		}
+		catch (Exception e) {
+			System.out.println("toLook: " + sym);
+			symbolToLookFor = '*';
+		}
+		// if it's the right close symbol
+		// if it's wrong
+		System.out.println("Verdit " + (currSym == symbolToLookFor) + currSym + symbolToLookFor);
+		return currSym == symbolToLookFor;
+	}
+
 	boolean isSymbol(char symb) {
 		return (openToClose.containsKey(symb) || openToClose.containsValue(symb));
 	}
 
 	public static void main(String[] args) {
-		SyntaxChecker s = new SyntaxChecker("car(cdr(a)(b)))");
-		System.out.println(s.symbols.toString());
+		SyntaxChecker s = new SyntaxChecker("car(zyx(h)(j))");
 		System.out.println(s.checkExpression());
 	}
 
-	//write a toString
+
 
 	@Override
 	public String toString() {
