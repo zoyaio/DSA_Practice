@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="stacks! pt2! done!">
-      <change afterPath="$PROJECT_DIR$/src/queues/basics/1.queues_Basics.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/basics/PalinList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/basics/PalinListRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/make_a_queue/3.queues_MakeAQueue.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/make_a_queue/IntQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/make_a_queue/IntQueueRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/priority_queue_array_reduction/4.queues_PQ_array_reduction.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/priority_queue_array_reduction/ArrayReduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/priority_queue_basics/2.queues_PriorityQBasics.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/priority_queue_basics/PQTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/priority_queue_basics/PQTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/number_systems/binary_sorter/3.numsystems_BinarySorter.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/number_systems/binary_sorter/3.numsystems_BinarySorter.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stacks/syntax_checker/SyntaxChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/syntax_checker/SyntaxChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
