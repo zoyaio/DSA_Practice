@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="stacks! pt2! done!">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\interfaces\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PostFixRunner">
+  <component name="RunManager" selected="Application.TheGame">
     <configuration name="ArrayReduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queues.priority_queue_array_reduction.ArrayReduction" />
       <module name="DSA_Practice_gradebook" />
@@ -75,19 +74,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pong_project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntQueueRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queues.make_a_queue.IntQueueRunner" />
-      <module name="DSA_Practice_gradebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queues.make_a_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,13 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TheGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.pong_project.TheGame" />
+      <module name="DSA_Practice_gradebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.pong_project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TheGame" />
         <item itemvalue="Application.PostFixRunner" />
         <item itemvalue="Application.Play" />
         <item itemvalue="Application.ArrayReduction" />
         <item itemvalue="Application.PQTestRunner" />
-        <item itemvalue="Application.IntQueueRunner" />
       </list>
     </recent_temporary>
   </component>

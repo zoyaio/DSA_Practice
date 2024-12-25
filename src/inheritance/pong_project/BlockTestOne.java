@@ -1,4 +1,4 @@
-package pong_project;//(c) A+ Computer Science
+package inheritance.pong_project;//(c) A+ Computer Science
 //www.apluscompsci.com
 //Name --
 

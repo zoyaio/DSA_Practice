@@ -1,4 +1,4 @@
-package pong_project;//(c) A+ Computer Science
+package inheritance.pong_project;//(c) A+ Computer Science
 //www.apluscompsci.com
 //Name -
 
@@ -24,7 +24,7 @@ class BallTestOne
 		Ball five = new Ball(100,100,30,50,Color.BLUE,5,6);
 		out.println(five);
 
-									//x, y, wid, ht, color, xSpd, ySpd
+		//x, y, wid, ht, color, xSpd, ySpd
 		Ball six = new Ball(100,100,30,50,Color.blue,5,6);
 		out.println(six);
 

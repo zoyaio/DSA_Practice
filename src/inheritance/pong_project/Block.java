@@ -1,9 +1,10 @@
-package pong_project;//(c) A+ Computer Science
+package inheritance.pong_project;//(c) A+ Computer Science
 //www.apluscompsci.com
 //Name -
 
 import java.awt.Color;
 import java.awt.Graphics;
+import java.util.Random;
 
 public class Block
 {
@@ -13,6 +14,9 @@ public class Block
 	private int height;
 
 	private Color color;
+
+	private Color[] COLORS = {Color.RED, Color.BLUE, Color.GREEN};
+	private Random rand = new Random();
 
 	public Block()
 	{
@@ -31,15 +35,15 @@ public class Block
 		this.height = height;
 		this.color = color;
 	}
-	
-   // add the other set methods
-   public Block(int x, int y, int width, int height) {
-	   this.xPos = x;
-	   this.yPos = y;
-	   this.width = width;
-	   this.height = height;
-	   this.color = Color.RED;
-   }
+
+	// add the other set methods
+	public Block(int x, int y, int width, int height) {
+		this.xPos = x;
+		this.yPos = y;
+		this.width = width;
+		this.height = height;
+		this.color = Color.RED;
+	}
 
 	public int getX() {
 		return xPos;
@@ -78,25 +82,32 @@ public class Block
 	}
 
 	public void setColor(Color col)
-   {
+	{
 
-	   color = col;
+		color = col;
 
-   }
+	}
 
-   public void draw(Graphics window)
-   {
-   	//uncomment after you write the set and get methods
-      window.setColor(color);
-      window.fillRect(getX(), getY(), getWidth(), getHeight());
-   }
+	public void draw(Graphics window)
+	{
+		//uncomment after you write the set and get methods
 
-   public void draw(Graphics window, Color col)
-   {
-	   window.setColor(col);
-	   window.fillRect(getX(), getY(), getWidth(), getHeight());
-   }
-   
+		window.setColor(color);
+		window.fillRect(getX(), getY(), getWidth(), getHeight());
+	}
+	public void drawNew(Graphics window)
+	{
+
+		window.setColor(COLORS[rand.nextInt(3)]);
+		window.fillRect(getX(), getY(), getWidth(), getHeight());
+	}
+
+	public void draw(Graphics window, Color col)
+	{
+		window.setColor(col);
+		window.fillRect(getX(), getY(), getWidth(), getHeight());
+	}
+
 	public boolean equals(Object obj)
 	{
 
@@ -113,12 +124,11 @@ public class Block
 			System.out.println("hi");
 		}
 		return false;
-	}   
+	}
 
-   //add the other get methods
-    
 
-   //add a toString() method  - x , y , width, height, color
+
+	//add a toString() method  - x , y , width, height, color
 
 	public String toString() {
 		return xPos + " " + yPos + " " + width + " " + height + " " + color.toString();
