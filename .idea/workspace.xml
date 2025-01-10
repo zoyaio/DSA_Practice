@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="stacks! pt2! done!">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedLists/FillTheSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedLists/Platforms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedLists/platforms.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedLists/sequence.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +40,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zoya/IdeaProjects/DSA_Practice_gradebook/src/queues&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zoya/IdeaProjects/DSA_Practice_gradebook/src&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -45,27 +49,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\queues" />
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src" />
+      <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\queues" />
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\maps" />
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\sets" />
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\interfaces\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TheGame">
-    <configuration name="ArrayReduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queues.priority_queue_array_reduction.ArrayReduction" />
-      <module name="DSA_Practice_gradebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queues.priority_queue_array_reduction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ListFunHouseRunner">
     <configuration name="BlockTestOne" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -81,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PQTestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queues.priority_queue_basics.PQTestRunner" />
+    <configuration name="FillTheSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedLists.FillTheSequence" />
       <module name="DSA_Practice_gradebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queues.priority_queue_basics.*" />
+          <option name="PATTERN" value="linkedLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Play" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacks.Play" />
+    <configuration name="JavaLinkedListRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_lists.basics.JavaLinkedListRunner" />
       <module name="DSA_Practice_gradebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacks.*" />
+          <option name="PATTERN" value="linked_lists.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +98,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostFixRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacks.postfix_solver.PostFixRunner" />
+    <configuration name="ListFunHouseRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_lists.parameters.ListFunHouseRunner" />
       <module name="DSA_Practice_gradebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacks.postfix_solver.*" />
+          <option name="PATTERN" value="linked_lists.parameters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Platforms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedLists.Platforms" />
+      <module name="DSA_Practice_gradebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListFunHouseRunner" />
+        <item itemvalue="Application.JavaLinkedListRunner" />
+        <item itemvalue="Application.FillTheSequence" />
+        <item itemvalue="Application.Platforms" />
         <item itemvalue="Application.TheGame" />
-        <item itemvalue="Application.PostFixRunner" />
-        <item itemvalue="Application.Play" />
-        <item itemvalue="Application.ArrayReduction" />
-        <item itemvalue="Application.PQTestRunner" />
       </list>
     </recent_temporary>
   </component>
