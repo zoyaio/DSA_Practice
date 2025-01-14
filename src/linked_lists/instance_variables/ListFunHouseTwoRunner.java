@@ -26,30 +26,30 @@ public class ListFunHouseTwoRunner
 		
 		out.println("num nodes = " + funHouse.nodeCount());
 
-		out.println("\nList values after calling nodeCount\n");	
+		out.println("\nList values after calling nodeCount");
 		System.out.println(funHouse);
 		out.println();		
 
 		funHouse.doubleLast();		
-		out.println("\nList values after calling doubleLast\n");							
+		out.println("\nList values after calling doubleLast");
 		System.out.println(funHouse);
 		out.println();				
 
 
 		funHouse.doubleFirst();		
-		out.println("\nList values after calling doubleFirst\n");							
+		out.println("\nList values after calling doubleFirst:");
 		System.out.println(funHouse);
 		out.println();	
 				
 		
 		funHouse.removeXthNode(2);		
-		out.println("\nList values after calling removeXthNode(2)\n");					
+		out.println("\nList values after calling removeXthNode(2)");
 		System.out.println(funHouse);
 		out.println();			
 		
 		
 		funHouse.setXthNode(2,"one");		
-		out.println("\nList values after calling setXthNode(2,one)\n");										
+		out.println("\nList values after calling setXthNode(2,one)");
 		System.out.println(funHouse);
 		out.println();				
 	}

@@ -15,44 +15,44 @@ public class ListFunHouseRunner
 		       		new ListNode("34",
 			 			new ListNode("2.1",
 		      		new ListNode("-a-2-1",
-		       		new ListNode("up",		       		
+		       		new ListNode("up",
 			 			new ListNode("over",null))))))));
-			 			
-		out.println("Lab15b Test Code\n\n");	
-		
-		out.println("Original list values\n");	
+
+		out.println("Lab15b Test Code\n\n");
+
+		out.println("Original list values\n");
 		ListFunHouse.print(z);
 		out.println("\n");
-		
+
 		out.println("num nodes = " + ListFunHouse.nodeCount(z));
 
-		out.println("\nList values after calling nodeCount\n");	
-		ListFunHouse.print(z);
-		out.println();		
-
-		ListFunHouse.doubleFirst(z);		
-		out.println("\nList values after calling doubleFirst\n");							
-		ListFunHouse.print(z);
-		out.println();	 
-
-		ListFunHouse.doubleLast(z);		
-		out.println("\nList values after calling doubleLast\n");							
+		out.println("\nList values after calling nodeCount\n");
 		ListFunHouse.print(z);
 		out.println();
 
-		ListFunHouse.skipEveryOther(z);
-		out.println("\nList values after calling skipEveryOther\n");
+		ListFunHouse.doubleFirst(z);
+		out.println("\nList values after calling doubleFirst\n");
 		ListFunHouse.print(z);
 		out.println();
 
-		ListFunHouse.removeXthNode(z,2);		
-		out.println("\nList values after calling removeXthNode(2)\n");					
+		ListFunHouse.doubleLast(z);
+		out.println("\nList values after calling doubleLast\n");
 		ListFunHouse.print(z);
-		out.println();			
-				
-		ListFunHouse.setXthNode(z,2,"one");		
-		out.println("\nList values after calling setXthNode(2,one)\n");										
+		out.println();
+
+//		ListFunHouse.skipEveryOther(z);
+//		out.println("\nList values after calling skipEveryOther\n");
+//		ListFunHouse.print(z);
+//		out.println();
+
+		ListFunHouse.removeXthNode(z,2);
+		out.println("\nList values after calling removeXthNode(2)\n");
 		ListFunHouse.print(z);
-		out.println();				
+		out.println();
+
+		ListFunHouse.setXthNode(z,2,"one");
+		out.println("\nList values after calling setXthNode(2,one)\n");
+		ListFunHouse.print(z);
+		out.println();
 	}
 }

@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="stacks! pt2! done!">
-      <change afterPath="$PROJECT_DIR$/src/linkedLists/FillTheSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedLists/Platforms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedLists/platforms.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedLists/sequence.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/linked_lists/instance_variables/ListFunHouseTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/linked_lists/instance_variables/ListFunHouseTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/linked_lists/instance_variables/ListFunHouseTwoRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/linked_lists/instance_variables/ListFunHouseTwoRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/linked_lists/parameters/ListFunHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/linked_lists/parameters/ListFunHouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/linked_lists/parameters/ListFunHouseRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/linked_lists/parameters/ListFunHouseRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linked_lists/histogram_list1/HistoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked_lists/histogram_list1/HistoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linked_lists/instance_variables/ListFunHouseTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked_lists/instance_variables/ListFunHouseTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linked_lists/instance_variables/ListFunHouseTwoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked_lists/instance_variables/ListFunHouseTwoRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linked_lists/parameters/ListFunHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked_lists/parameters/ListFunHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linked_lists/parameters/ListFunHouseRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked_lists/parameters/ListFunHouseRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,7 @@
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\interfaces\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListFunHouseRunner">
+  <component name="RunManager" selected="Application.HistoListRunner">
     <configuration name="BlockTestOne" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -78,6 +83,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="linkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HistoListRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_lists.histogram_list1.HistoListRunner" />
+      <module name="DSA_Practice_gradebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linked_lists.histogram_list1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,25 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Platforms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedLists.Platforms" />
+    <configuration name="ListFunHouseTwoRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_lists.instance_variables.ListFunHouseTwoRunner" />
       <module name="DSA_Practice_gradebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TheGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.pong_project.TheGame" />
-      <module name="DSA_Practice_gradebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inheritance.pong_project.*" />
+          <option name="PATTERN" value="linked_lists.instance_variables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HistoListRunner" />
+        <item itemvalue="Application.ListFunHouseTwoRunner" />
         <item itemvalue="Application.ListFunHouseRunner" />
         <item itemvalue="Application.JavaLinkedListRunner" />
         <item itemvalue="Application.FillTheSequence" />
-        <item itemvalue="Application.Platforms" />
-        <item itemvalue="Application.TheGame" />
       </list>
     </recent_temporary>
   </component>
