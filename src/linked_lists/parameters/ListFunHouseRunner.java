@@ -40,10 +40,6 @@ public class ListFunHouseRunner
 		ListFunHouse.print(z);
 		out.println();
 
-//		ListFunHouse.skipEveryOther(z);
-//		out.println("\nList values after calling skipEveryOther\n");
-//		ListFunHouse.print(z);
-//		out.println();
 
 		ListFunHouse.removeXthNode(z,2);
 		out.println("\nList values after calling removeXthNode(2)\n");

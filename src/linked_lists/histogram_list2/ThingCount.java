@@ -14,36 +14,45 @@ public class ThingCount implements Comparable
 	
 	public ThingCount(Object thang, int cnt)
 	{
+		count = cnt;
+		thing = thang;
 	}
 	
 	public int getCount()
 	{
-		return 0;
+		return count;
 	}
 	
 	public void setCount(int cnt)
 	{
+		count = cnt;
 	}
 
 	public void setThing(Object obj)
 	{
+		thing = obj;
 	}	
 	
 	public Object getThing()
 	{
-		return null;
+		return thing;
 	}
 	
 	public boolean equals(Object obj)
 	{
 		ThingCount other = (ThingCount)obj;
-		return false;
+		return other.getThing().equals(this.getThing()) && other.getCount() == this.getCount();
 	}
-	
+
+	// wait everything should alreayd be comparable;
 	public int compareTo(Object obj)
 	{
-		ThingCount other = (ThingCount)obj;
-		return -1;		
+		Comparable otherThing = (Comparable) ((ThingCount) obj).getThing() ;
+
+		Comparable thisThing = (Comparable) this.getThing();
+
+		return thisThing.compareTo(otherThing);
+
 	}
 	
 	public String toString()

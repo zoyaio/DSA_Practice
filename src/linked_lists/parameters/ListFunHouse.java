@@ -67,6 +67,16 @@ public class ListFunHouse
 
 	}
 
+	public static void skipEveryOther2(ListNode list)
+	{
+		ListNode x = list;
+		while (x!= null) {
+			x.setNext(new ListNode(x.getValue(), x.getNext()));
+			x = x.getNext().getNext();
+		}
+
+	}
+
 	//this method will set the value of every xth node in the list
 	public static void setXthNode(ListNode list, int x, Comparable value)
 	{
