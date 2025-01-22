@@ -59,4 +59,6 @@ public class ThingCount implements Comparable
 	{
 		return ""+ getThing() + " - " + getCount();
 	}
+
+
 }

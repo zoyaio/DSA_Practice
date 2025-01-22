@@ -77,4 +77,24 @@ public class HistoList
 		}
 		return output;
 	}
+
+	public void removeNode(Object obj) {
+		ListNode current = front;
+		ListNode previous = front;
+		while (current != null) {
+
+			if (current.getValue().equals(obj)) {
+				// when its hte first node
+				if (current.equals(previous)) {
+					front = current.getNext(); // sets the head to the next node
+					current.setNext(null); // detaches the old head from the list
+				}
+				previous.setNext(current.getNext());
+				break;
+			}
+			previous = current;
+			current = current.getNext();
+		}
+
+	}
 }
