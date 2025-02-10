@@ -143,7 +143,7 @@ public class BinarySearchTree
 	}
 
 	public int getHeight() {
-		return getDiameter(root);
+		return getDiameter(root) /2;
 	}
 
 	public int getNumNodes() {

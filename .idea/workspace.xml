@@ -4,36 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="stacks! pt2! done!">
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_BasicTree/1.bstree_BasicTree.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_BasicTree/BSTreeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_BasicTree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_BasicTree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_BasicTree/Treeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_BasicTreeGeneric/BSTreeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_BasicTreeGeneric/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_BasicTreeGeneric/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_BasicTreeGeneric/Treeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree1/3.bstree_HistoTree1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree1/HistoNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree1/HistoTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree1/HistoTreeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/4.bstree_HistoTree2_part1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/4.bstree_HistoTree2_part2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/HistoTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/HistoTreeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/ThingCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/ThingTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/Treeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/worksheets/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/worksheets/Treeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/worksheets/binary_tree_worksheet1_java_aplus.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/worksheets/binary_tree_worksheet2_java_aplus.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/worksheets/binary_tree_worksheet3_java_aplus.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/worksheets/binary_tree_worksheet4_java_aplus.pdf" afterDir="false" />
+    <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="binary tree labs 1 and list labs 5 update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/linked_lists/other_types/ListLabs5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/linked_lists/other_types/ListLabs5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trees/bstree_BasicTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/bstree_BasicTree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trees/bstree_HistoTree1/HistoTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree1/HistoTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,18 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "temurin-17",
-    "last_opened_file_path": "C:/Users/zoya/IdeaProjects/DSA_Practice_gradebook/src",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zoya/IdeaProjects/DSA_Practice_gradebook/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src" />
@@ -80,7 +54,7 @@
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\sets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListLabs5">
+  <component name="RunManager" selected="Application.HistoTreeRunner">
     <configuration name="BSTreeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trees.bstree_BasicTree.BSTreeRunner" />
       <module name="DSA_Practice_gradebook" />
@@ -163,9 +137,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListLabs5" />
         <item itemvalue="Application.HistoTreeRunner" />
         <item itemvalue="Application.BSTreeRunner" />
+        <item itemvalue="Application.ListLabs5" />
         <item itemvalue="Application.CircularLinkedList" />
         <item itemvalue="Application.DoublyLinkedList" />
       </list>
@@ -208,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730229401949</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="binary tree labs 1 and list labs 5 update">
+      <created>1738610248385</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738610248385</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +208,8 @@
     <MESSAGE value="tic tac toe and untested sets" />
     <MESSAGE value="stacks!" />
     <MESSAGE value="stacks! pt2! done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="stacks! pt2! done!" />
+    <MESSAGE value="binary tree labs 1 and list labs 5 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary tree labs 1 and list labs 5 update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -334,8 +316,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/trees/bstree_HistoTree1/HistoTreeRunner.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="54" />
+          <line>18</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/sortsearch/gradebook/GradesRunner.java</url>
@@ -393,5 +375,15 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="trees.bstree_HistoTree1.HistoNode" memberName="left" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="tree" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

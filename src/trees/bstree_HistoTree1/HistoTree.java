@@ -16,11 +16,15 @@ public class HistoTree
 
 	public void addData(Comparable data)
 	{
+
 		HistoNode location = search(data);
+		// if it hasn't been found before
 		if (location == null) {
+			System.out.println("hi " + data);
 			add(data, root);
 
 		}
+		// if the location already exists
 		else {
 			location.setDataCount(location.getDataCount() + 1);
 		}
@@ -32,7 +36,9 @@ public class HistoTree
 
 		if (tree == null){
 			tree = new HistoNode(data, 1, null, null);
-		root = tree;
+			if (root == null) {
+				root = tree;
+			}
 	}
 		else {
 			Comparable treeValue = tree.getData();
@@ -60,17 +66,25 @@ public class HistoTree
 			return null;
 		}
 
+		// if the subtree is the right one
 		if (data == tree.getData()) {
 			return tree;
 		}
-		else {
 
-			if (tree.getLeft() != null && (tree.getLeft().getData().compareTo(data) < 0)) {
-				return search(data, tree.getRight());
-			}
-			else {
+		else {
+			// checks if not left for no errors in compareTo call
+			// if the value is greater than the left, checks the right side
+			// if there was nothing on the left then we woudl want it to gl elft
+			// issue was that we have to incldue = sign bc the next value will eventually be the right value
+
+			if (tree.getLeft() != null && data.compareTo(tree.getLeft().getData()) <= 0)
+			{
 				return search(data, tree.getLeft());
 			}
+			else {
+				return search(data, tree.getRight());
+			}
+
 		}
 		// check if the data = the current value
 		// if not, check if its greater than the left side
@@ -84,12 +98,14 @@ public class HistoTree
 
 	private String toString(HistoNode tree)
 	{
-		String retString = "";
+		String leftString = "";
+		String thisString = "";
+		String rightString = "";
 		if (tree != null){
-			toString(tree.getLeft());
-			retString += tree.getData() + " " + tree.getDataCount() + "\n";
-			toString(tree.getRight());
+			 leftString = toString(tree.getLeft());
+			 thisString =  tree.getData() + ":" + tree.getDataCount();
+			 rightString = toString(tree.getRight());
 		}
-		return retString;
+		return leftString + " " + thisString + " " + rightString ;
 	}
 }
