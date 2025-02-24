@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="binary tree labs 1 and list labs 5 update">
+    <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="tree labs 1 and 2">
+      <change afterPath="$PROJECT_DIR$/src/hash_tables/1.hastables_TableOInts.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_tables/2.hastables_TableOWords.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_tables/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_tables/HashTableRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_tables/Linkable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_tables/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_tables/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_tables/NumberTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_tables/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_tables/WordTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_tables/numbers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_tables/words.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trees/bstree_BasicTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/bstree_BasicTree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trees/bstree_HistoTree1/HistoTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree1/HistoTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +64,7 @@
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\sets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HistoTreeRunner">
+  <component name="RunManager" selected="Application.HashTableRunner">
     <configuration name="BSTreeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trees.bstree_BasicTree.BSTreeRunner" />
       <module name="DSA_Practice_gradebook" />
@@ -83,25 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked_lists.other_types.CircularLinkedList" />
+    <configuration name="HashTableRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hash_tables.HashTableRunner" />
       <module name="DSA_Practice_gradebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked_lists.other_types.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked_lists.other_types.DoublyLinkedList" />
-      <module name="DSA_Practice_gradebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linked_lists.other_types.*" />
+          <option name="PATTERN" value="hash_tables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,13 +132,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hash_tables.NumberTester" />
+      <module name="DSA_Practice_gradebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hash_tables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashTableRunner" />
+        <item itemvalue="Application.NumberTester" />
         <item itemvalue="Application.HistoTreeRunner" />
         <item itemvalue="Application.BSTreeRunner" />
         <item itemvalue="Application.ListLabs5" />
-        <item itemvalue="Application.CircularLinkedList" />
-        <item itemvalue="Application.DoublyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738610248385</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="tree labs 1 and 2">
+      <created>1739177069695</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739177069695</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +226,8 @@
     <MESSAGE value="stacks!" />
     <MESSAGE value="stacks! pt2! done!" />
     <MESSAGE value="binary tree labs 1 and list labs 5 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="binary tree labs 1 and list labs 5 update" />
+    <MESSAGE value="tree labs 1 and 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="tree labs 1 and 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
