@@ -21,8 +21,12 @@ public class HashTable
 		LinkedList linked = table[i];
 		if (linked == null) {
 			table[i] = new LinkedList();
+
 		}
-		table[i].add(obj);
+		// need to get rid of duplicates
+		if (!table[i].contains(obj)) {
+			table[i].add(obj);
+		}
 
 
 
@@ -33,7 +37,11 @@ public class HashTable
 	{
 		String output="HASHTABLE\n";
 		for (LinkedList ll : table) {
-			output += "bucket " + ll.toString() + "\n";
+			String temp = "";
+			if (ll != null) {
+				temp = ll.toString();
+			}
+			output += "bucket " + temp + "\n";
 		}
 
 		return output;

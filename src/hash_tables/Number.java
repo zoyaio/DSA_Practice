@@ -20,7 +20,8 @@ public class Number
 	
 	public boolean equals(Object obj)
 	{
-		return false;
+		Number num = (Number) obj;
+		return theValue == num.getValue() && hashCode() == num.hashCode();
 	} 
 	
 	public int hashCode()
@@ -30,6 +31,6 @@ public class Number
 
 	public String toString()
 	{
-		return hashCode() + ": " + theValue;
+		return ""+ theValue;
 	}	
 }

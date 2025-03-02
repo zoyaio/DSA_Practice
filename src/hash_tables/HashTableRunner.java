@@ -14,13 +14,13 @@ public class HashTableRunner
 			//make a new table			
 			HashTable shredded = new HashTable();
 			//read from the file			
-			Scanner scannie = new Scanner(new File("C:\\Users\\zoya\\IdeaProjects\\DSA_Practice_gradebook\\src\\hash_tables\\numbers.dat"));
+			Scanner scannie = new Scanner(new File("C:\\Users\\zoya\\IdeaProjects\\DSA_Practice_gradebook\\src\\hash_tables\\words.dat"));
 			//load stuff into the table
 			int numEntries = scannie.nextInt();
 			scannie.nextLine();
 			for (int i = 0; i < numEntries -1; i++) {
-				int value = scannie.nextInt();
-				shredded.add(new Number(value));
+				String value = scannie.next();
+				shredded.add(new Word(value));
 				scannie.nextLine();
 			}
 
@@ -29,7 +29,7 @@ public class HashTableRunner
 		}
 		catch(Exception e)
 		{
-			System.out.println("Houston, we have a problem!");
+			System.out.println(e.getMessage());
 		}
   }
 }

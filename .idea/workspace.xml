@@ -5,19 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="tree labs 1 and 2">
-      <change afterPath="$PROJECT_DIR$/src/hash_tables/1.hastables_TableOInts.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hash_tables/2.hastables_TableOWords.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hash_tables/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hash_tables/HashTableRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hash_tables/Linkable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hash_tables/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hash_tables/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hash_tables/NumberTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hash_tables/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hash_tables/WordTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hash_tables/numbers.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hash_tables/words.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_tables/HashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/HashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/HashTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/HashTableRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/HashTableRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/Number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/Number.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/Word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/WordTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/WordTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/words.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/words.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash_tables/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_tables/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash_tables/HashTableRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_tables/HashTableRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash_tables/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_tables/Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash_tables/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_tables/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash_tables/WordTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_tables/WordTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/HistoTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/HistoTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/ThingCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/ThingCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,20 +66,7 @@
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\sets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashTableRunner">
-    <configuration name="BSTreeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trees.bstree_BasicTree.BSTreeRunner" />
-      <module name="DSA_Practice_gradebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trees.bstree_BasicTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThingTester">
     <configuration name="BlockTestOne" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -119,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListLabs5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked_lists.other_types.ListLabs5" />
+    <configuration name="ThingTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trees.bstree_HistoTree2.ThingTester" />
       <module name="DSA_Practice_gradebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked_lists.other_types.*" />
+          <option name="PATTERN" value="trees.bstree_HistoTree2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hash_tables.NumberTester" />
+    <configuration name="WordTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hash_tables.WordTester" />
       <module name="DSA_Practice_gradebook" />
       <extension name="coverage">
         <pattern>
@@ -145,13 +134,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="trees.bstree_HistoTree2.HistoTreeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trees.bstree_HistoTree2.HistoTreeRunner" />
+      <module name="DSA_Practice_gradebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trees.bstree_HistoTree2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThingTester" />
+        <item itemvalue="Application.trees.bstree_HistoTree2.HistoTreeRunner" />
         <item itemvalue="Application.HashTableRunner" />
-        <item itemvalue="Application.NumberTester" />
+        <item itemvalue="Application.WordTester" />
         <item itemvalue="Application.HistoTreeRunner" />
-        <item itemvalue="Application.BSTreeRunner" />
-        <item itemvalue="Application.ListLabs5" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +216,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -337,6 +345,16 @@
           <line>18</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hash_tables/HashTable.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/trees/bstree_HistoTree2/ThingTester.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/sortsearch/gradebook/GradesRunner.java</url>
           <line>6</line>
@@ -390,6 +408,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/trees/bstree_HistoTree2/HistoTreeRunner.java</url>
+          <line>7</line>
+          <properties class="trees.bstree_HistoTree2.HistoTreeRunner" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/hash_tables/HashTableRunner.java</url>
+          <line>10</line>
+          <properties class="hash_tables.HashTableRunner" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
