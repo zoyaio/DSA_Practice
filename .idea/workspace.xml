@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="tree labs 1 and 2">
-      <change afterPath="$PROJECT_DIR$/src/hash_tables/HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_tables/HashTableZoya.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/basics/1.heap_Basicspdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/basics/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/basics/HeapRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/heap_sort/2.heap_HeapSort.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/heap_sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/heap_sort/HeapSortRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/worksheets/heap_worksheet1_java_aplus.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/worksheets/heap_worksheet2_java_aplus.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/HashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/HashTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/HashTableRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/HashTableRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/Number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/Number.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/Word.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/WordTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/WordTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/words.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/hash_tables/words.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hash_tables/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_tables/HashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hash_tables/HashTableRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_tables/HashTableRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hash_tables/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_tables/Number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hash_tables/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_tables/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hash_tables/WordTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_tables/WordTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/HistoTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/HistoTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/ThingCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/bstree_HistoTree2/ThingCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +61,7 @@
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\sets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThingTester">
+  <component name="RunManager" selected="Application.HeapSortRunner">
     <configuration name="BlockTestOne" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -95,12 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HistoTreeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trees.bstree_HistoTree1.HistoTreeRunner" />
+    <configuration name="HeapRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heaps.basics.HeapRunner" />
       <module name="DSA_Practice_gradebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trees.bstree_HistoTree1.*" />
+          <option name="PATTERN" value="heaps.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapSortRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heaps.heap_sort.HeapSortRunner" />
+      <module name="DSA_Practice_gradebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heaps.heap_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,19 +122,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="trees.bstree_HistoTree2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hash_tables.WordTester" />
-      <module name="DSA_Practice_gradebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hash_tables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeapSortRunner" />
+        <item itemvalue="Application.HeapRunner" />
         <item itemvalue="Application.ThingTester" />
         <item itemvalue="Application.trees.bstree_HistoTree2.HistoTreeRunner" />
         <item itemvalue="Application.HashTableRunner" />
-        <item itemvalue="Application.WordTester" />
-        <item itemvalue="Application.HistoTreeRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -355,6 +350,11 @@
           <line>8</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/heaps/basics/Heap.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/sortsearch/gradebook/GradesRunner.java</url>
           <line>6</line>
@@ -434,10 +434,5 @@
         <PinnedItemInfo parentTag="trees.bstree_HistoTree1.HistoNode" memberName="left" />
       </pinned-members>
     </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="tree" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
