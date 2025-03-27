@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="tree labs 1 and 2">
-      <change afterPath="$PROJECT_DIR$/src/hash_tables/HashTableZoya.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heaps/basics/1.heap_Basicspdf.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heaps/basics/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heaps/basics/HeapRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heaps/heap_sort/2.heap_HeapSort.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heaps/heap_sort/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heaps/heap_sort/HeapSortRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heaps/worksheets/heap_worksheet1_java_aplus.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heaps/worksheets/heap_worksheet2_java_aplus.pdf" afterDir="false" />
+    <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="heap labs 1 and 2 (also a little bit of zoya working on hashtable)">
+      <change afterPath="$PROJECT_DIR$/src/heaps/heapApplications.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heaps/heap_sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heaps/heap_sort/HeapSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +37,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/zoya/IdeaProjects/DSA_Practice_gradebook/src&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
@@ -61,7 +55,7 @@
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\sets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HeapSortRunner">
+  <component name="RunManager" selected="Application.heapApplications">
     <configuration name="BlockTestOne" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -70,19 +64,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pong_project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashTableRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hash_tables.HashTableRunner" />
-      <module name="DSA_Practice_gradebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hash_tables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,6 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="heapApplications" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heaps.heapApplications" />
+      <module name="DSA_Practice_gradebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="trees.bstree_HistoTree2.HistoTreeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trees.bstree_HistoTree2.HistoTreeRunner" />
       <module name="DSA_Practice_gradebook" />
@@ -144,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.heapApplications" />
         <item itemvalue="Application.HeapSortRunner" />
         <item itemvalue="Application.HeapRunner" />
         <item itemvalue="Application.ThingTester" />
         <item itemvalue="Application.trees.bstree_HistoTree2.HistoTreeRunner" />
-        <item itemvalue="Application.HashTableRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739177069695</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="heap labs 1 and 2 (also a little bit of zoya working on hashtable)">
+      <created>1741887732011</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741887732011</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +231,8 @@
     <MESSAGE value="stacks! pt2! done!" />
     <MESSAGE value="binary tree labs 1 and list labs 5 update" />
     <MESSAGE value="tree labs 1 and 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="tree labs 1 and 2" />
+    <MESSAGE value="heap labs 1 and 2 (also a little bit of zoya working on hashtable)" />
+    <option name="LAST_COMMIT_MESSAGE" value="heap labs 1 and 2 (also a little bit of zoya working on hashtable)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

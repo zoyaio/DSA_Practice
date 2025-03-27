@@ -23,10 +23,6 @@ public class HeapSort
 		return parentI * 2 + 2;
 	}
 
-   public void swapUp(int index)
-   {
-
-	}
 
 	public void print(List<Integer> list)
 	{
@@ -59,7 +55,7 @@ public class HeapSort
    public void heapSort(ArrayList<Integer> nums)
    {
 	   list.clear();
-	   // TODO: turn into maxheap
+	   // turn into maxheap
 		heapify(nums);
 
 	   // call heapsorthelper
