@@ -5,48 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="heap labs 1 and 2 (also a little bit of zoya working on hashtable)">
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_all_paths/6.Graph_AllPaths.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_all_paths/AllPathsGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_all_paths/AllPathsGraphRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_all_paths/graph3.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_run/11.Graph_run.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_run/run.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_run/run.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_shortest_path/4.Graph_ShortestPath.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_shortest_path/ShortestPathGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_shortest_path/ShortestPathGraphRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_shortest_path/graph2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_simple/1.Graph_simple.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_simple/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_simple/GraphQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_simple/GraphQRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_simple/GraphRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_simple/graph1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_simple2/3.Graph_simple2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_simple2/BiDirectionalGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_simple2/BiDirectionalGraphRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/graph_simple2/bidgraph.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_bombs/7.Maze_bombs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_bombs/maze_bombs.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_dragon/9.Maze_dragon.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_dragon/stronghold.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_shortest/5.Maze_shortest.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_shortest/maze_short.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_simple/2.Maze_simple.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_simple/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_simple/MazeQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_simple/MazeQRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_simple/MazeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_simple/Maze_Simple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_simple/maze_simple.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_soul/10.Maze_soul.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_soul/soul.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_soul/soul.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_too_saucy/8.Maze_too_saucy.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_too_saucy/sauce.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/worksheets/graphs_worksheet1_java_aplus.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/heaps/heapApplications.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/heaps/heapApplications.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/graph_simple2/BiDirectionalGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/graph_simple2/BiDirectionalGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/graph_simple2/BiDirectionalGraphRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/graph_simple2/BiDirectionalGraphRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +55,20 @@
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\sets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GraphRunner">
+  <component name="RunManager" selected="Application.BiDirectionalGraphRunner">
+    <configuration name="BiDirectionalGraphRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.graph_simple2.BiDirectionalGraphRunner" />
+      <module name="DSA_Practice_gradebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphs.graph_simple2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BlockTestOne" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -149,19 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThingTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trees.bstree_HistoTree2.ThingTester" />
-      <module name="DSA_Practice_gradebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trees.bstree_HistoTree2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="heapApplications" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="heaps.heapApplications" />
       <module name="DSA_Practice_gradebook" />
@@ -177,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BiDirectionalGraphRunner" />
         <item itemvalue="Application.GraphRunner" />
         <item itemvalue="Application.heapApplications" />
         <item itemvalue="Application.HeapSortRunner" />
         <item itemvalue="Application.HeapRunner" />
-        <item itemvalue="Application.ThingTester" />
       </list>
     </recent_temporary>
   </component>
