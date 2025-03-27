@@ -5,6 +5,9 @@ package graphs.maze_simple;//(c) A+ Computer Science
 import java.util.Queue;
 import java.util.LinkedList;
 
+
+// creating the graph (nodes): each tuple-index-of-#
+// creating graph (edges): check each of its directions has a #
 public class MazeQ
 {
    private char[][] maze;

@@ -10,7 +10,7 @@ public class MazeRunner
 {
 	public static void main( String args[] ) throws IOException
 	{
-		Scanner file = new Scanner(new File("C:\\Users\\sturner\\IdeaProjects\\DSA_Practice\\src\\graphs\\maze_simple\\maze_simple.dat"));
+		Scanner file = new Scanner(new File("C:\\Users\\zoya\\IdeaProjects\\DSA_Practice_gradebook\\src\\graphs\\maze_simple\\maze_simple.dat"));
 		while(file.hasNext())
 		{
 			int rc = file.nextInt();

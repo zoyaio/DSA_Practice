@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="heap labs 1 and 2 (also a little bit of zoya working on hashtable)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/graph_simple2/BiDirectionalGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/graph_simple2/BiDirectionalGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/graph_simple2/BiDirectionalGraphRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/graph_simple2/BiDirectionalGraphRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/maze_simple/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_simple/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/maze_simple/MazeQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_simple/MazeQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/maze_simple/MazeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_simple/MazeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/maze_simple/maze_simple.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_simple/maze_simple.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\sets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BiDirectionalGraphRunner">
+  <component name="RunManager" selected="Application.MazeRunner">
     <configuration name="BiDirectionalGraphRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphs.graph_simple2.BiDirectionalGraphRunner" />
       <module name="DSA_Practice_gradebook" />
@@ -97,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heaps.basics.HeapRunner" />
+    <configuration name="HeapSortRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heaps.heap_sort.HeapSortRunner" />
       <module name="DSA_Practice_gradebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heaps.basics.*" />
+          <option name="PATTERN" value="heaps.heap_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSortRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heaps.heap_sort.HeapSortRunner" />
+    <configuration name="MazeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.maze_simple.MazeRunner" />
       <module name="DSA_Practice_gradebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heaps.heap_sort.*" />
+          <option name="PATTERN" value="graphs.maze_simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MazeRunner" />
         <item itemvalue="Application.BiDirectionalGraphRunner" />
         <item itemvalue="Application.GraphRunner" />
         <item itemvalue="Application.heapApplications" />
         <item itemvalue="Application.HeapSortRunner" />
-        <item itemvalue="Application.HeapRunner" />
       </list>
     </recent_temporary>
   </component>
