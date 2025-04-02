@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="heap labs 1 and 2 (also a little bit of zoya working on hashtable)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/maze_simple/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_simple/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/maze_simple/MazeQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_simple/MazeQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/maze_simple/MazeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_simple/MazeRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/maze_simple/maze_simple.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_simple/maze_simple.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/graph_all_paths/AllPathsGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/graph_all_paths/AllPathsGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/graph_all_paths/AllPathsGraphRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/graph_all_paths/AllPathsGraphRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,20 @@
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\sets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MazeRunner">
+  <component name="RunManager" selected="Application.AllPathsGraphRunner">
+    <configuration name="AllPathsGraphRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.graph_all_paths.AllPathsGraphRunner" />
+      <module name="DSA_Practice_gradebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphs.graph_all_paths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BiDirectionalGraphRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphs.graph_simple2.BiDirectionalGraphRunner" />
       <module name="DSA_Practice_gradebook" />
@@ -99,19 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSortRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heaps.heap_sort.HeapSortRunner" />
-      <module name="DSA_Practice_gradebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="heaps.heap_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MazeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphs.maze_simple.MazeRunner" />
       <module name="DSA_Practice_gradebook" />
@@ -140,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AllPathsGraphRunner" />
+        <item itemvalue="Application.heapApplications" />
         <item itemvalue="Application.MazeRunner" />
         <item itemvalue="Application.BiDirectionalGraphRunner" />
         <item itemvalue="Application.GraphRunner" />
-        <item itemvalue="Application.heapApplications" />
-        <item itemvalue="Application.HeapSortRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -363,6 +361,11 @@
           <url>file://$PROJECT_DIR$/src/graphs/graph_simple/GraphRunner.java</url>
           <line>26</line>
           <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graphs/graph_all_paths/AllPathsGraph.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/sortsearch/gradebook/GradesRunner.java</url>
