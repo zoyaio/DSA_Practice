@@ -50,8 +50,7 @@ public class AllPathsGraph
 
 		for (String neigh : map.get(first)) {
 			ArrayList<String> arr = new ArrayList<>(currPath);
-
-			// basecase
+			// base case
 			if (neigh.equals(second)) {
 				found = true;
 				arr.add(neigh);
