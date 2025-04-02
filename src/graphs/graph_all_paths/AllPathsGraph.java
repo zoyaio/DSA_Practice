@@ -9,7 +9,7 @@ public class AllPathsGraph
 	private Map<String, Set<String>> map;
 	private boolean found;
 	private int shortest;
-	private ArrayList<String> paths;
+	private ArrayList<ArrayList<String>> paths;
 	private Set<String> visited;
 
 	public AllPathsGraph(String line)
@@ -39,27 +39,39 @@ public class AllPathsGraph
 		visited = new TreeSet<>();
 	}
 	public void check (String first, String second) {
-		check(first, second, first);
+		ArrayList<String> arr = new ArrayList<>();
+		arr.add(first);
+		check(first, second, arr);
 	}
 	// visited should only be for the current path aka i need to turn currPath
 	// into an array list
-	public void check (String first, String second, String currPath) {
-		visited.add(first);
-		Set<String> potentialPathways = new TreeSet<>();
+	public void check (String first, String second, ArrayList<String> currPath) {
+		Map<String, ArrayList<String>> potentialPathways2 = new TreeMap();
+
 		for (String neigh : map.get(first)) {
-			// base case
+			ArrayList<String> arr = new ArrayList<>(currPath);
+
+			// basecase
 			if (neigh.equals(second)) {
 				found = true;
-				paths.add(currPath + " "+ neigh);
+				arr.add(neigh);
+				paths.add(arr);
 				}
+			// if it's not a full path yet, add it to the potential pathways to explore
 			else {
-				potentialPathways.add(neigh);
+				potentialPathways2.put(neigh, arr);
 			}
 		}
-		for (String neigh : potentialPathways) {
-			// recursive call
-			if (!visited.contains(neigh)) {
-				check(neigh, second, currPath + " " + neigh);
+		for (Map.Entry<String, ArrayList<String>> entry : potentialPathways2.entrySet()) {
+			// init variables
+			ArrayList<String> pathway = entry.getValue();
+			String neigh = entry.getKey();
+			// if this node hasn't already been visited on this path
+			if (!pathway.contains(neigh)) {
+				// adds it to the history
+				pathway.add(neigh);
+				// recursive call
+				check(neigh, second, pathway);
 			}
 		}
 	}
