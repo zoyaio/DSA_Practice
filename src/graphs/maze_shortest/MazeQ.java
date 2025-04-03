@@ -42,7 +42,7 @@ public class MazeQ
 		public int getDistance() {return distance; }
 
 		public String toString() {
-			return pair.toString() + "hi";
+			return pair.toString() ;
 		}
 	}
    private char[][] maze;
@@ -99,16 +99,16 @@ public class MazeQ
 
 		while (!queue.isEmpty()) {
 			CoordinatePair curr = queue.poll();
-//			System.out.println("curr" + curr);
-//			System.out.println("queue" + queue);
 			int r = curr.getR(); int c = curr.getC();
 
+			// checks if have reached end of maze
 			if ((r == maze.length-1 && c == maze.length -1) && (maze[r][c] == '.')) {
 				exitFound = true;
-				shortestDistance = curr.distance;
+				shortestDistance = curr.distance -1 ;
 				return;
 			}
 			int[][] neighbors = generateValidNeighbors(maze.length, r, c);
+			// loops through each neighbor and adds to queue if valid
 			for (int i = 0; i < neighbors.length; i++) {
 				CoordinatePair temp = new CoordinatePair(neighbors[i][0],neighbors[i][1], curr.getDistance() );
 				if (neighbors[i][0] != -1 && !visited.contains(temp)) {

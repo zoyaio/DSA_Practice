@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="heap labs 1 and 2 (also a little bit of zoya working on hashtable)">
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_shortest/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_shortest/MazeQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_shortest/MazeQRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_shortest/MazeRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/graph_all_paths/AllPathsGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/graph_all_paths/AllPathsGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/graph_all_paths/AllPathsGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/graph_all_paths/AllPathsGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/maze_shortest/maze_short.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_shortest/maze_short.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/maze_shortest/MazeQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_shortest/MazeQ.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,12 +372,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/graphs/maze_shortest/MazeQ.java</url>
-          <line>104</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graphs/maze_shortest/MazeQ.java</url>
-          <line>114</line>
+          <line>113</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
