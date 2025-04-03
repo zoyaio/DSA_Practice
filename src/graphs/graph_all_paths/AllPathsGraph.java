@@ -82,7 +82,7 @@ public class AllPathsGraph
 	{
 		if(found) 
 		{
-			return "" + paths;
+			return "" + paths.size() + paths;
 		}
 		return "no";
 	}
