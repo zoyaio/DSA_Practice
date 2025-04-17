@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="heap labs 1 and 2 (also a little bit of zoya working on hashtable)">
-      <change beforePath="$PROJECT_DIR$/src/graphs/maze_shortest/MazeQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_shortest/MazeQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/maze_dragon/MazeQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/maze_dragon/MazeQRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/maze_dragon/stronghold2.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_shortest/MazeQ$CoordinatePair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_shortest/MazeQ$CoordinatePair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_shortest/MazeQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_shortest/MazeQ.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TODO_SCOPE": "All Places",
     "jdk.selected.JAVA_MODULE": "temurin-17",
-    "last_opened_file_path": "C:/Users/zoya/IdeaProjects/DSA_Practice_gradebook/src/graphs/maze_shortest",
+    "last_opened_file_path": "C:/Users/zoya/IdeaProjects/DSA_Practice_gradebook/src/graphs/maze_dragon",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -46,14 +51,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\graphs\maze_dragon" />
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\graphs\maze_shortest" />
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src" />
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\linked_lists" />
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\queues" />
-      <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\maps" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="graphs.maze_dragon" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MazeQRunner">
+  <component name="RunManager" selected="Application.graphs.maze_dragon.MazeQRunner">
     <configuration name="AllPathsGraphRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphs.graph_all_paths.AllPathsGraphRunner" />
       <module name="DSA_Practice_gradebook" />
@@ -95,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.maze_simple.MazeRunner" />
+    <configuration name="ShortestPathGraphRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.graph_shortest_path.ShortestPathGraphRunner" />
       <module name="DSA_Practice_gradebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs.maze_simple.*" />
+          <option name="PATTERN" value="graphs.graph_shortest_path.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathGraphRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.graph_shortest_path.ShortestPathGraphRunner" />
+    <configuration name="graphs.maze_dragon.MazeQRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.maze_dragon.MazeQRunner" />
       <module name="DSA_Practice_gradebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs.graph_shortest_path.*" />
+          <option name="PATTERN" value="graphs.maze_dragon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.graphs.maze_dragon.MazeQRunner" />
         <item itemvalue="Application.MazeQRunner" />
         <item itemvalue="Application.AllPathsGraphRunner" />
         <item itemvalue="Application.ShortestPathGraphRunner" />
         <item itemvalue="Application.heapApplications" />
-        <item itemvalue="Application.MazeRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -375,6 +383,16 @@
           <line>113</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graphs/maze_dragon/MazeQ.java</url>
+          <line>249</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graphs/maze_dragon/MazeQ.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/sortsearch/gradebook/GradesRunner.java</url>
           <line>6</line>
@@ -459,6 +477,7 @@
       <configuration name="Application">
         <watch expression="curr" language="JAVA" />
         <watch expression="visited" language="JAVA" />
+        <watch expression="temp" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
