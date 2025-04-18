@@ -11,7 +11,7 @@ public class MazeQRunner
 	public static void main( String args[] ) throws IOException
 	{
 		Scanner file = new Scanner(
-				new File("C:\\Users\\zoya\\IdeaProjects\\DSA_Practice_gradebook\\src\\graphs\\maze_dragon\\stronghold2.dat"));
+				new File("C:\\Users\\zoya\\IdeaProjects\\DSA_Practice_gradebook\\src\\graphs\\maze_dragon\\stronghold.dat"));
 		int numEntries = file.nextInt();
 		file.nextLine();
 		for (int i =0; i < numEntries; i++)

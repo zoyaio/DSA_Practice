@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="heap labs 1 and 2 (also a little bit of zoya working on hashtable)">
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_dragon/MazeQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_dragon/MazeQRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/maze_dragon/stronghold2.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_shortest/MazeQ$CoordinatePair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_shortest/MazeQ$CoordinatePair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_shortest/MazeQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_shortest/MazeQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/MazeQ$CoordinatePair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/MazeQ$CoordinatePair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/MazeQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/MazeQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/MazeQRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/MazeQRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/stronghold2.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/stronghold2.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/maze_dragon/MazeQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_dragon/MazeQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/maze_dragon/MazeQRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_dragon/MazeQRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/maze_dragon/stronghold2.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_dragon/stronghold2.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -385,12 +387,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/graphs/maze_dragon/MazeQ.java</url>
-          <line>249</line>
+          <line>200</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/graphs/maze_dragon/MazeQ.java</url>
-          <line>171</line>
+          <line>140</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
