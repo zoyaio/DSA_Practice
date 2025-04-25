@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62333885-dae4-401d-bb9f-bc04627d6869" name="Changes" comment="heap labs 1 and 2 (also a little bit of zoya working on hashtable)">
+      <change afterPath="$PROJECT_DIR$/src/ALGOS/lab1/FileMerger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ALGOS/lab1/FileMergerTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ALGOS/lab2/Median.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ALGOS/lab2/MedianTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/MazeQ$CoordinatePair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/MazeQ$CoordinatePair.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/MazeQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/MazeQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/MazeQRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/MazeQRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/stronghold2.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Practice_gradebook/graphs/maze_dragon/stronghold2.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/graphs/maze_dragon/MazeQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_dragon/MazeQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/maze_dragon/MazeQRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_dragon/MazeQRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/maze_dragon/stronghold2.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/maze_dragon/stronghold2.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +37,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TODO_SCOPE": "All Places",
-    "jdk.selected.JAVA_MODULE": "temurin-17",
-    "last_opened_file_path": "C:/Users/zoya/IdeaProjects/DSA_Practice_gradebook/src/graphs/maze_dragon",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zoya/IdeaProjects/DSA_Practice_gradebook/src/graphs/maze_dragon&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zoya\IdeaProjects\DSA_Practice_gradebook\src\graphs\maze_dragon" />
@@ -63,7 +62,7 @@
       <recent name="graphs.maze_dragon" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.graphs.maze_dragon.MazeQRunner">
+  <component name="RunManager" selected="Application.Median">
     <configuration name="AllPathsGraphRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphs.graph_all_paths.AllPathsGraphRunner" />
       <module name="DSA_Practice_gradebook" />
@@ -92,6 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileMergerTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ALGOS.lab1.FileMergerTester" />
+      <module name="DSA_Practice_gradebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ALGOS.lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MazeQRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphs.maze_shortest.MazeQRunner" />
       <module name="DSA_Practice_gradebook" />
@@ -105,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathGraphRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.graph_shortest_path.ShortestPathGraphRunner" />
+    <configuration name="Median" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ALGOS.lab2.Median" />
       <module name="DSA_Practice_gradebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs.graph_shortest_path.*" />
+          <option name="PATTERN" value="ALGOS.lab2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,26 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="heapApplications" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heaps.heapApplications" />
-      <module name="DSA_Practice_gradebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="heaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Median" />
+        <item itemvalue="Application.FileMergerTester" />
         <item itemvalue="Application.graphs.maze_dragon.MazeQRunner" />
         <item itemvalue="Application.MazeQRunner" />
         <item itemvalue="Application.AllPathsGraphRunner" />
-        <item itemvalue="Application.ShortestPathGraphRunner" />
-        <item itemvalue="Application.heapApplications" />
       </list>
     </recent_temporary>
   </component>
@@ -387,12 +386,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/graphs/maze_dragon/MazeQ.java</url>
-          <line>200</line>
+          <line>198</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/graphs/maze_dragon/MazeQ.java</url>
-          <line>140</line>
+          <line>138</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

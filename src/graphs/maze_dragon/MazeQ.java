@@ -106,11 +106,9 @@ public class MazeQ
 	}
 
 	private ArrayList<CoordinatePair> generateValidSpace(int rN, int cN, int depth) {
-//		System.out.println("\n\n" + rN + " " + cN);
 		ArrayList<CoordinatePair> ret = new ArrayList<>();
 		for (int r = rN - depth; r < rN + depth+1; r++) {
 			for (int c = cN - depth; c < cN + depth +1; c++) {
-//				System.out.println("coord: " + r + " "+ c);
 				if ((r >= 0 && r < maze.length) && (c >= 0 && c < maze[0].length)) {
 					ret.add(new CoordinatePair(r, c, -1));
 				}
